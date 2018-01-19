@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.answer {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3vw 3vw 1vw 1vw;
+    box-shadow: 0.1vw 0.2vw 0.4vw 0.2vw rgba(80, 80, 80, 0.8);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3ed645d1;
+    border-radius: 2vw;
+}
+
+.question {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4vw 4vw 2.5vw 2.5vw;
+    box-shadow: 0.1vw 0.2vw 0.4vw 0.2vw rgba(80, 80, 80, 0.8);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fda43bd1;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
+
+.score {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2vw 2vw 2vw 2vw;
+    box-shadow: 0.1vw 0.2vw 0.4vw 0.2vw rgba(80, 80, 80, 0.8);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #35baf76e;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
+
+.btn {
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.btn:hover {
+    background-color: #167f5e;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background {
+    background-image: url(../img/4.jpg);
+    background-size: 100vw;
+}
+
+#container {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    background: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vw;
+}
+
+#animate {
+    width: 0px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    border-radius: 2vw;
+}

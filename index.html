@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 1 + 2 = 3 ? </title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div id="container">
+            <div id="animate"></div>
+        </div>
+        <br>
+
+        <div class="w3-progress-container">
+            <div id="myBar" class="w3-progressbar w3-green" style="width:0%"></div>
+        </div>
+
+        <div class="score text-center">
+            <div class="form-control" type="text" id="4">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="question text-center">
+            <div class="form-control" type="text" id="5">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="btn answer text-center" id="1" onclick="mytest();myMove();">
+            1
+        </div>
+
+        <br>
+
+        <div class="btn answer text-center" id="2" onclick="mytest();myMove();">
+            2
+        </div>
+
+        <br>
+
+        <div class="btn answer text-center" id="3" onclick="mytest();myMove();">
+            3
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
